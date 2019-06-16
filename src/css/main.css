@@ -1,0 +1,42 @@
+.reveal section img.transparent {
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+
+.reveal section img.bg-white {
+  background: #fff;
+  border-top: 25px solid #fff;
+  border-bottom: 25px solid #fff;
+  border-left: 40px solid #fff;
+  border-right: 40px solid #fff;
+}
+
+.reveal section .round {
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border: 5px dashed #fff;
+}
+
+.reveal section .round.first {
+  width: 160px;
+  height: 80px;
+  transform: translate(-170px, 65px);
+}
+
+.reveal section .round.second {
+  width: 250px;
+  height: 100px;
+  transform: translate(-360px, -145px) rotate(15deg);
+}
+
+.reveal section img.size-std {
+  max-height: 500px !important;
+}
+
+.reveal section img.size-small {
+  max-height: 200px !important;
+}
+
