@@ -36,6 +36,10 @@
   max-height: 500px !important;
 }
 
+.reveal section img.size-middle {
+  max-height: 350px !important;
+}
+
 .reveal section img.size-small {
   max-height: 200px !important;
 }
